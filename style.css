@@ -1,0 +1,70 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.logo{
+    display: flex;
+}
+.job{
+    margin: 100px;
+    margin-left: 100px;
+}
+.main{
+    display: flex;
+}
+
+#img{
+height: 150px;
+width: 150px;
+}
+.aaa{
+    text-align: center;
+}
+.bbb{
+    text-align: center;
+}
+.col-6{
+    padding-left: 100px;
+}
+.col-6:hover{
+   transform: scale(1.15);
+    
+}
+.card-title{
+    color: blueviolet;
+}
+.www{
+    padding-top: 20px;
+    text-align: center;
+}
+button{
+    border-radius: 25px;
+    background-color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+
+}
+.zzz{
+    text-align: center;
+}
+@media screen and (max-width:400px){
+    .nav-link{
+        width: 400px;
+        color: black;
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+    }
+    .logo{
+        display: block;
+    }
+   
+   
+
+}
